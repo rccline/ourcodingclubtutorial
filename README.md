@@ -5,3 +5,5 @@
 * [Click here to access the github tutorial](https://ourcodingclub.github.io/tutorials/git/)
 
 OurCodingClub tutorial serves as an introduction to GitHub.  There are 131 people participating in this event.  
+
+Wednesday February 2, 2022.  

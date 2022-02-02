@@ -1,0 +1,28 @@
+---
+title: "Git Commands"
+author: "Robert Cline"
+date: "2/2/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+
+library(gt)
+library(tidyverse)
+library(here)
+```
+
+### Import data
+```{r}
+library(readxl)
+git_commands <- read_excel(here("data", "git-commands.xlsx"))
+# View(git_commands)
+```
+
+```{r git-command-table, echo=FALSE}
+git_commands %>% 
+  gt()
+```
+ 
+ 

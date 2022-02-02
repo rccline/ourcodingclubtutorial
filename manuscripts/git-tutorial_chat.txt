@@ -1,0 +1,182 @@
+08:01:08 From  Host  to  Waiting Room Participants:
+	Hi everyone! Thanks for joining, we will get underway in a couple of minutes!
+08:22:14 From  Joseph Everest  to  Everyone:
+	Tutorial Link: https://ourcodingclub.github.io/tutorials/git/
+08:25:47 From  steve bachman  to  Everyone:
+	the diff window not showing for me
+08:26:04 From  Rebecca Rau  to  Everyone:
+	for me neither
+08:26:09 From  Sara D  to  Everyone:
+	I don't see dii as well
+08:26:09 From  Jessica Mundy  to  Everyone:
+	I use Git through the terminal, and you usually need to do “git add” before you commit. Do you need to do this if you use the RStudio Git?
+08:26:17 From  GaoYu  to  Everyone:
+	just RStudio
+08:26:22 From  chaoyan  to  Everyone:
+	yes
+08:27:01 From  steve bachman  to  Everyone:
+	thanks
+08:30:09 From  Beth Nicholls  to  Everyone:
+	Super helpful thanks!
+08:31:23 From  Guillemette  to  Everyone:
+	Tutorial Link: https://ourcodingclub.github.io/tutorials/git/
+08:31:35 From  Jessica Mundy  to  Everyone:
+	I had a question which I posted previously, just wondered if it sent!
+08:32:18 From  Jessica Mundy  to  Everyone:
+	Ok great thanks!
+08:36:16 From  Bernard Forgues  to  Everyone:
+	Terminal apparently stuck at “Updating Homebrew…” Is there something I’m supposed to do?
+08:39:33 From  Diana Jerome  to  Everyone:
+	if it does get stuck again this webpage had a potential solution to a similar problem https://github.com/Homebrew/brew/issues/895
+08:41:43 From  Rebecca Rau  to  Everyone:
+	Can you change your github name if you don't like it anymore?
+08:42:26 From  Rebecca Rau  to  Everyone:
+	okay, cool. Thank you!
+08:42:57 From  Diana Jerome  to  Everyone:
+	https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/changing-your-github-username
+08:43:05 From  Jerónimo Cid  to  Everyone:
+	Is there a way to bring your other repositories into the one we just created, ie change repository structure?
+08:43:38 From  Jerónimo Cid  to  Everyone:
+	the later
+08:44:10 From  Jerónimo Cid  to  Everyone:
+	Thanks!
+08:44:40 From  Donncha Mullin  to  Everyone:
+	thanks, and what about bringing (already existing) folders from my computer into github?
+08:46:37 From  Donncha Mullin  to  Everyone:
+	cool, thanks will give that a go later and get in touch if it’s not working for me
+08:48:47 From  Rebecca Rau  to  Everyone:
+	should something happen after you typed "brew install git"? 😅
+08:51:21 From  Diana Jerome  to  Everyone:
+	To check whether or not you have git installed type "git --version" into your terminal, but it also might just be slow
+08:52:40 From  Rebecca Rau  to  Everyone:
+	cool, it was slow but it worked!
+08:52:52 From  Joseph Everest  to  Everyone:
+	Excellent! :)
+09:00:36 From  Sara Villa  to  Everyone:
+	I'm having troubles cloning my repository to my local PC to open in R studio. Does it affect that I'm trying to use a OneDrive folder the local folder?
+09:01:34 From  Sara Villa  to  Everyone:
+	just authentication error
+09:01:47 From  Jessica Mundy  to  Everyone:
+	I had nightmares working with onedrive and GitHub. I would recommend keeping your git repository on your hard drive
+09:01:52 From  Sara Villa  to  Everyone:
+	let me copy, one sec
+09:02:46 From  Sara Villa  to  Everyone:
+	Cloning into 'OLS-project-sequencing-tutorial'...	Logon failed, use ctrl+c to cancel basic credential prompt.	remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.	remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.	fatal: Authentication failed for 'https://github.com/SaraVilla/OLS-project-sequencing-tutorial.git/'
+09:02:58 From  Donncha Mullin  to  Everyone:
+	So probably same issue if I use Dropbox?
+09:03:01 From  Ana Filipa Sobral  to  Everyone:
+	Is there a space limit on GitHub?
+09:03:49 From  Sara Villa  to  Everyone:
+	got it, thanks!
+09:04:00 From  Guillemette  to  Everyone:
+	There is a space limit on GitHub yes, let me find how much it is exactly - but from what I remember it is quite large and hard to reach if you do basic data analysis projects
+09:04:23 From  Donncha Mullin  to  Everyone:
+	My commit of existing folders and files from my Dropbox is failing. Is there a limit on how much I can upload at one time? Maybe it’s the Dropbox issue
+09:05:14 From  Guillemette  to  Everyone:
+	internet says, maximum individual repository size limit of 10 GB
+09:05:18 From  Ana Filipa Sobral  to  Everyone:
+	Thank you!
+09:06:20 From  Guillemette  to  Everyone:
+	oups 100 GB * actually
+09:06:33 From  Rebecca Rau  to  Everyone:
+	How do you write in bold in your README.md?
+09:06:58 From  Donncha Mullin  to  Everyone:
+	Okay, cool thanks. It worked for me when I tried commiting just one folder there but will try multiple folders once I move them from Dropbox
+09:07:29 From  Guillemette  to  Everyone:
+	‘’’write something here'''
+09:08:12 From  Joseph Everest  to  Everyone:
+	https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+09:08:29 From  Guillemette  to  Everyone:
+	actually you can either use **insert text** or __insert text__
+09:08:31 From  Joseph Everest  to  Everyone:
+	^^ Cheat sheet for formatting READMEs and RMarkdown documents
+09:08:31 From  Bernard Forgues  to  Everyone:
+	I’m at 3. Sync and interact… and I got an error message from RStudio: >>> Cloning into 'codingClub'...	remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.	remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.	fatal: Authentication failed for 'https://github.com/BernardForgues/codingClub.git/'
+09:08:57 From  Rebecca Rau  to  Everyone:
+	Thank you!
+09:10:31 From  steve bachman  to  Everyone:
+	from limited experience of all this, I can back up the comment on one drive syncing. It has caused problems for me. working off local/hard drive with no problems.
+09:11:42 From  Diana Jerome  to  Everyone:
+	I would just try pushing it
+09:14:23 From  Sara Villa  to  Everyone:
+	OK, so my problem now is that I have nowhere where to put the personal token. It only gives me the option of username and Pw to authenticate... :(
+09:15:08 From  Sara Villa  to  Everyone:
+	shall I try the troubleshooting with R bit in the tutorial?
+09:15:33 From  Sara Villa  to  Everyone:
+	ok, coming, ta!
+09:15:50 From  Bernard Forgues  to  Everyone:
+	So I’ve created and copied the access token and in Step 2, it says “you should get a prompt” but I don’t?
+09:17:14 From  Sara Villa  to  Everyone:
+	yesssssss!!! it worked!!! thanks a lot!!!
+09:17:49 From  Guillemette  to  Everyone:
+	yayyy! No worries :))
+09:19:57 From  Bernard Forgues  to  Everyone:
+	Phew! It worked! Thanks again.
+09:20:15 From  Guillemette  to  Everyone:
+	Ah, good !
+09:24:38 From  Donncha Mullin  to  Everyone:
+	Sorry I’ve not reached the same error as Bernard earlier. Wasn’t listening to the solution then as was doing battle with folder commiting! What is the solution? error message: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.	remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.	fatal: Authentication failed for '
+09:24:47 From  Donncha Mullin  to  Everyone:
+	*now reached
+09:32:04 From  Bernard Forgues  to  Everyone:
+	I had the same problem. What I was missing is the checkbox in the pop-up window called “Review Changes"
+09:34:25 From  Christian Rixen  to  Everyone:
+	GIT was not detected from my R studio although I have it installed
+09:35:10 From  Guillemette  to  Everyone:
+	So all your installation process occurred normally?
+09:35:21 From  Kate  to  Everyone:
+	what does this mean?
+09:35:23 From  Kate  to  Everyone:
+	Now the folder has been made into a Git repository, allowing you to track changes to files. Now, lets create a README.md file inside the repository and put some text in it, using whatever text editor you are comfortable with. Make sure to place this README.md file into the repository folder on your device so it can be found!
+09:36:18 From  Kate  to  Everyone:
+	how do I create a readme.md file inside the repository?
+09:36:54 From  Christian Rixen  to  Everyone:
+	have got to go. Thanks!!!
+09:37:11 From  Joseph Everest  to  Everyone:
+	Hi Christian, have you tried to clone your repository to RStudio?
+09:37:39 From  Joseph Everest  to  Everyone:
+	Ah you have to head away! That may be the solution to your issue. Thanks for joining!
+09:37:43 From  Kate  to  Everyone:
+	a new file in rstudio or on my laptop
+09:40:40 From  Anna Aitken  to  Everyone:
+	You create the files with these commands: 	touch README.md	touch .gitignore	touch test.R
+09:40:59 From  Diana Jerome  to  Everyone:
+	touch README.md
+09:41:10 From  Diana Jerome  to  Everyone:
+	will make the readme
+09:41:32 From  Diana Jerome  to  Everyone:
+	git add README.md will then add it to the repository
+09:41:41 From  Kate  to  Everyone:
+	ok thanks
+09:41:42 From  Anna Aitken  to  Everyone:
+	thanks for the tutorial, it's been really nice to have help on hand.
+09:41:59 From  Joseph Everest  to  Everyone:
+	No worries Anna, hopefully it was helpful!
+09:42:01 From  steve bachman  to  Everyone:
+	what is the best way to revert to a previous commit if you realise your latest commit is wrong?
+09:42:41 From  Donncha Mullin  to  Everyone:
+	Hi, hit a hiccup with configuring my username and email. I’m using Mac Big Sur, no obvious solution found online as per tutorial instructions
+09:42:43 From  Alanna Leale  to  Everyone:
+	Thank you for the tutorial! I need to leave already, but will be sure to try my best with the remaining steps and check out your other tutorials online 🙂
+09:42:43 From  Joseph Everest  to  Everyone:
+	https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/reverting-a-commit
+09:42:45 From  Donncha Mullin  to  Everyone:
+	Any tips?
+09:42:59 From  steve bachman  to  Everyone:
+	brilliant, thanks
+09:44:58 From  Donncha Mullin  to  Everyone:
+	zsh: command not found: #
+09:46:08 From  steve bachman  to  Everyone:
+	thanks, great tutorial
+09:46:40 From  Robert Cline  to  Everyone:
+	Terrific tutorial  :)
+09:47:25 From  Bernard Forgues  to  Everyone:
+	Brilliant, many thanks!
+09:48:59 From  GaoYu  to  Everyone:
+	thanks :)
+09:49:05 From  Sara Villa  to  Everyone:
+	it was great, many thanks!!!!
+09:49:38 From  Sara D  to  Everyone:
+	it was super useful tutorial! Thanks!
+09:49:43 From  Rebecca Rau  to  Everyone:
+	Thanks so much! I learned heaps today thanks to you!

@@ -6,7 +6,9 @@
 ~$*.doc*
 ~$*.xls*
 *.xlk
-~$*.ppt*
+~$*.ppt* 
+
+docs/git-commands.html
 
 # Prevent mac users to commit .DS_Store files
 *.DS_Store

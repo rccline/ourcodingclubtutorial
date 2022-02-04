@@ -22,7 +22,7 @@ git_commands <- read_excel(here("data", "git-commands.xlsx"))
 
 ```{r git-command-table, echo=FALSE}
 git_commands %>% 
-  gt()
+  gt::gt()
 ```
  
  <br>
@@ -30,7 +30,7 @@ git_commands %>%
  <br>
  
 ### **Undo Changes** with *Checkout, Revert and Reset*  
-[Click here to see Nathan Williams' YouTube tutorial *Becoming a Data Scientist* on YouTube](https://www.youtube.com/watch?v=UmE0uf5UMzA)  
+[Click here to see Nathan Williams' YouTube tutorial *Becoming a Data Scientist* on YouTube](https://www.youtube.com/watch?v=UmE0uf5UMzA)^[Nathan Williams' YouTube Video #5 - Undo Changes (checkout, revert, reset)]  
 <br> 
 
 * git log --oneline  
@@ -56,13 +56,33 @@ git_commands %>%
 * git reset \<shah\> --hard  
   previous commits are gone.  Not coming back.  
   
-### [Git Tutorial: Fixing common mistakes and undoing Bad Commits](https://www.youtube.com/watch?v=FdZecVxzJbk)  
+**[Git Tutorial: Fixing common mistakes and undoing Bad Commits](https://www.youtube.com/watch?v=FdZecVxzJbk)**
 
 <br>  
 <br>   
 
-### [Nathan Williams on Branching](https://www.youtube.com/watch?v=wVM4tfKsXBY&list=PLGPGLQRuosDKw42JcQvOU5qArkUb8kCDc&index=7)  
+### Branching  
+[Nathan Williams video tutorial on Branching](https://www.youtube.com/watch?v=wVM4tfKsXBY&list=PLGPGLQRuosDKw42JcQvOU5qArkUb8kCDc&index=7)  
+*Nathan Williams' tutorial #6 was very helpful in troubleshooting and deleting a new branch I created*^[Nathan Williams YouTube Video #6 - Branches]  
 
+Create branch  
+* git branch 
+  - to tell which branch you are on
+  
+* git branch blog
+  - creates a new branch 
+  
+* git checkout blog  
+  - switches to new branch 
+  
+[Remove Branches](https://www.techiediaries.com/delete-local-remote-git-branches/#)^[How to remove local/remote Git Branches by Techiediearies] 
+  
+* git branch -D newbranch  
+  - *capital -D deletes regardless of merge status*  
+  - *deletes the local branch.*  Then push:  
+  - *git push --delete origin branch-name*   
+    - *deletes branch from remote*
+   
 
 
 

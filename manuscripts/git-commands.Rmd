@@ -13,7 +13,7 @@ library(tidyverse)
 library(here)
 ```
 
-### Import data
+### OurCodingClub - git commands  
 ```{r}
 library(readxl)
 git_commands <- read_excel(here("data", "git-commands.xlsx"))
@@ -25,4 +25,48 @@ git_commands %>%
   gt()
 ```
  
+ <br>
+ <br>
+ <br>
  
+### **Undo Changes** with *Checkout, Revert and Reset*  
+[Click here to see Nathan Williams' YouTube tutorial *Becoming a Data Scientist* on YouTube](https://www.youtube.com/watch?v=UmE0uf5UMzA)  
+<br> 
+
+* git log --oneline  
+
+* git checkout \<shah\>  
+  - read only view  
+  - git checkout master 
+    - return to master 
+* git revert 
+  - to undo commits  
+  - undo for only one commit; 
+  - good reason to keep commits to single issues  
+  
+* git reset \<shah\>  
+  - removes all commits at and ahead.
+  - reset undoes changes but saves them in working directory.
+  - reset can get it back by adding back to staging
+  - leaves files in working directory, therefore, you can get the reset back  
+
+* git add . 
+  git commit -m "Undo Reset"  
+  
+* git reset \<shah\> --hard  
+  previous commits are gone.  Not coming back.  
+  
+### [Git Tutorial: Fixing common mistakes and undoing Bad Commits](https://www.youtube.com/watch?v=FdZecVxzJbk)  
+
+<br>  
+<br>   
+
+### [Nathan Williams on Branching](https://www.youtube.com/watch?v=wVM4tfKsXBY&list=PLGPGLQRuosDKw42JcQvOU5qArkUb8kCDc&index=7)  
+
+
+
+
+  
+
+
+

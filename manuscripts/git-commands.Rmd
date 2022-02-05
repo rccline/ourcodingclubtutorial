@@ -6,16 +6,35 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE) 
 
-library(gt)
-library(tidyverse)
 library(here)
-```
+library(readxl)
+library(tidyverse)
+
+knitr::opts_chunk$set(echo = FALSE) 
+```  
+
+
+```{r library-source,  echo=FALSE}  
+
+## Load libraries from script  
+
+source(here("scripts", "libraries.R"), local = knitr::knit_global())
+# or sys.source("your-script.R", envir = knitr::knit_global())
+``` 
+
+
+```{r installed-packages, echo=FALSE, eval=FALSE} 
+
+# Verify loaded packages  
+
+installed.packages()[names(sessionInfo()$otherPkgs), "Version"]
+```  
+
 
 ### OurCodingClub - git commands  
 ```{r}
-library(readxl)
+
 git_commands <- read_excel(here("data", "git-commands.xlsx"))
 # View(git_commands)
 ```
@@ -82,7 +101,6 @@ Create branch
   - *deletes the local branch.*  Then push:  
   - *git push --delete origin branch-name*   
     - *deletes branch from remote*
-   
 
 
 

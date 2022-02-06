@@ -42,5 +42,7 @@ Use dev branch to develop, then merge to test branch.  When tested and working, 
     - Head is pointing to our branch.
   - git branch dev 
     - dev branch is not where you write your code.
-    - make a *feature-1* branch from *dev* branch to write code
+    - make a *feature-1* branch from *dev* branch to write code  
+    
+  
   

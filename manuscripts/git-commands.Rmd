@@ -34,7 +34,8 @@ installed.packages()[names(sessionInfo()$otherPkgs), "Version"]
 
 ## This file should be in the *manuscripts* folder.  
 
-## This file should be in the *manuscripts* folder.  
+<br> 
+
 
 ### OurCodingClub - git commands  
 ```{r}

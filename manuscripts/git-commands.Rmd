@@ -171,7 +171,7 @@ Create branch
 
 <<<<<<< Updated upstream
 =======
-### Create a new brach for the stash  
+### Create a new branch for the stash  
 * git stash branch new-branch 0 
 
 >>>>>>> Stashed changes
@@ -181,5 +181,5 @@ Create branch
 * **git stash clear**  
   - removes the list of all stashes.  
   
-
+Files remain in stash.  2/5/2022
 

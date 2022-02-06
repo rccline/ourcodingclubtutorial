@@ -1,0 +1,46 @@
+---
+title: "Branches"
+author: "Robert Cline"
+date: "2/6/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Good practices^[Good Practices are from Udemy course: Tim Buchalka's Learn Programming Academy, Eduardo Rosas (Updated 8/2021). *Git & GitHub Masterclass*], ^[Instructor for the *Git & GitHub Masterclass* on Udemy is Eduardo Rosas who maintains a YouTube Channel in Spanish, focusing on personal financing and investmet.] 
+<br> 
+
+**What is a Branch?** From Section 26.  
+This helps explain what a branch is and strategy for using branches. 
+
+*I was misunderstanding branches.*  A new branch should include the previous commits from Master up until the point of the branch.  
+
+
+
+
+1. The strategy of the Master branch should be to keep at least one good working version of our code.
+    
+2. Branches 
+Use dev branch to develop, then merge to test branch.  When tested and working, push to master branch.  
+
+  - master branch  
+  - test branch - merge to master
+    - solve-bug-1  merge to test branch
+    - solve-bug-2  merge to test branch 
+
+  - dev branch  
+    - feature-1 merge to dev branch
+    - feature-2 
+
+3. Example  
+   
+  - git branch
+    - shows a list 
+    - we see the original commits
+    - Head is pointing to our branch.
+  - git branch dev 
+    - dev branch is not where you write your code.
+    - make a *feature-1* branch from *dev* branch to write code
+  

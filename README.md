@@ -4,8 +4,8 @@ This tutorial from *OurCodingClub* is an introduction to creating and using a Gi
 
 *OurCodingClub* tutorial was presented on a Zoom meeting on Wednesday, 2022-02-02 at 8:00 o'clock a.m. MST.   
 
-* [Click here to access the github tutorial](https://ourcodingclub.github.io/tutorials/git/)
+* [Click here to access the OurCodingClub github tutorial](https://ourcodingclub.github.io/tutorials/git/)
 
 In this introduction to GitHub, *OurCodingClub tutorial* had 131 people actively participating in this event.  
 
-Wednesday February 2, 2022.  
+This Readme was updated on Saturday February 5, 2022.  

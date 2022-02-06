@@ -1,3 +1,8 @@
+# See gitignore example from 
+# https://wyen.me/cheatsheets/gitignore-cheat-sheet.html 
+
+
+
 # Prevent users to commit their own .RProj
 *.Rproj
 
@@ -6,12 +11,11 @@
 ~$*.doc*
 ~$*.xls*
 *.xlk
-~$*.ppt* 
-
+~$*.ppt*
 docs/git-commands.html
 manuscripts/git-commands.html
 
-**/git-commands.html 
+**/git-commands.html
 # **/filename  matches filename anywhere
 
 # Prevent mac users to commit .DS_Store files

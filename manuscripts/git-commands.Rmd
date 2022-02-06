@@ -34,6 +34,8 @@ installed.packages()[names(sessionInfo()$otherPkgs), "Version"]
 
 ## This file should be in the *manuscripts* folder.  
 
+## This file should be in the *manuscripts* folder.  
+
 ### OurCodingClub - git commands  
 ```{r}
 
@@ -113,15 +115,40 @@ Create branch
   - *deletes the local branch.*  Then push:  
   - *git push --delete origin branch-name*   
     - *deletes branch from remote*
+<<<<<<< Updated upstream
 
 ### [Branch Tutorial by Alessandro Castellani](https://www.youtube.com/watch?v=pDmYNK68IEc)
 
+=======
+   
+
+### [Branch Tutorial by Alessandro Castellani](https://www.youtube.com/watch?v=pDmYNK68IEc)
+
+>>>>>>> Stashed changes
 * git branch --list  
 * git checkout newdocs  
 * bit branch  
   - to check which branch we are on.
 * git touch style.css  
   - to create a new file *style.css*  
+<<<<<<< Updated upstream
+=======
+  
+### [Working with *git stash* by Ihatetomatoes](https://www.youtube.com/watch?v=-aPoRU5W8lA)
+<br>  
+* git stash 
+* **git stash -u**  
+  - the dash u stashes untracted changes  
+* git stash list  
+* git stash show 0 
+* git stash show -p 0 
+  - -p shows branches  
+  shashes are indexed 
+* **git stash apply 0**  (the index of the stash we want to bring back)  
+* Save stash with a custom message:  
+  - **git stash push -m "Updated text."**    
+  - git stash list 
+>>>>>>> Stashed changes
   
 ### [Working with *git stash* by Ihatetomatoes](https://www.youtube.com/watch?v=-aPoRU5W8lA)
 <br>  
@@ -142,6 +169,12 @@ Create branch
 ### Create a new brach for the stash  
 * git stash branch new-branch 0 
 
+<<<<<<< Updated upstream
+=======
+### Create a new brach for the stash  
+* git stash branch new-branch 0 
+
+>>>>>>> Stashed changes
 ### Bring back changes not staged for commit   
 * git stash pop  
   - takes the last stash you put in, and apply to working directory  

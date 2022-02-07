@@ -50,6 +50,9 @@ git_commands <- read_excel(here("data", "git-commands.xlsx"))
 * Pat Schloss in *Riffomonas Project* has a YouTube tutorial that demonstrates how to create a new git project for version control from within an RStudio Project.  
 * 1:32 minutes:  Create local git repository  
 
+When creating a project on GitHub, you should create a *.gitignore* from GitHub, selecting the R version of .gitignore.  This file will list files that *should not* be tracked within the .gitignore file. [Using RStudio Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-RStudio-Projects).^[Creates a hidden directory (named .Rproj.user) where project-specific temporary files (e.g. auto-saved source documents, window-state, etc.) are stored. This directory is also automatically added to .Rbuildignore, .gitignore, etc. if required.]  
+
+
 <br>
 
 
